@@ -36,7 +36,7 @@ Este é um projeto de To-Do List interativo, desenvolvido com HTML, CSS e JavaSc
 3. Adicione, complete e remova tarefas!
 
 ## 📸 Captura de Tela
-_Insira aqui uma captura de tela do projeto_
+![taskList](assets/images/sc.png)
 
 ## 📌 Tecnologias Utilizadas
 - HTML5
