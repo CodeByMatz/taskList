@@ -321,37 +321,39 @@ footer::before {
     display: flex;
     flex-direction: column;
   }
+}
 
-  @media (max-width: 300px) {
-    .task-date {
-      width: 100%;
-      padding: 8px;
-      height: 20%;
-    }
-
-    .input-group {
-      width: 50%;
-    }
-
-    .brands {
-      right: -10px;
-    }
-
-    ul > li {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .task-date {
-      font-size: 10px;
-      padding: 2px;
-    }
-
-    footer {
-      display: flex;
-      flex-direction: column-reverse;
-    }
+@media (max-width: 300px) {
+  .task-date {
+    width: 100%;
+    padding: 8px;
+    height: 20%;
   }
+
+  .input-group {
+    width: 50%;
+  }
+
+  .brands {
+    right: -10px;
+  }
+
+  ul > li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task-date {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
   .fa-plus {
     font-size: 25px;
   }
@@ -369,7 +371,7 @@ footer::before {
 
   /* Tooltip Styles */
   #addTask {
-    position: relative; /* Importante para posicionar a tooltip */
+    position: relative;
   }
 
   #addTask::after {
@@ -468,4 +470,4 @@ footer::before {
     opacity: 1;
     visibility: visible;
   }
-}
+
