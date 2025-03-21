@@ -73,6 +73,7 @@ body {
     overflow: auto;
     position: relative;
     background-color: rgba(0, 0, 0, 0.616);
+    align-items: center;
   }
 
   /* Header Styles */
@@ -80,6 +81,7 @@ body {
     width: 240px;
     height: 50px;
     padding: 10px;
+    padding-bottom: 15px;
     color: #212121;
     background-color: white;
     border-radius: 5px;
@@ -162,6 +164,7 @@ body {
     list-style-type: none;
     padding: 0;
     margin-top: 20px;
+    width: 100%;
   }
 
   li {
@@ -176,6 +179,7 @@ body {
     color: black;
     font-size: large;
     overflow-wrap: break-word;
+    
   }
 
   li:hover {
@@ -316,13 +320,27 @@ right: -400px;
 .brands {
   right: -10px;
 }
+
+.input-group {
+
+  width: 50%;
 }
+
+ul > li {
+  display: flex;
+  flex-direction: column;
+  }
 
 @media (max-width: 300px) {
 .task-date {
    width: 100%;
    padding: 8px;
    height: 20%;
+}
+
+.input-group {
+
+  width: 50%;
 }
 
 .brands {
